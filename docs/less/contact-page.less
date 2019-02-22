@@ -1,0 +1,48 @@
+.contact {
+
+  img {
+    width: 80%;
+    height: auto;
+  }
+
+  .contact-info{
+    .flex(space-between);
+    width: 90%;
+
+    .left {
+      width: 45%;
+      padding: 20px 1%;
+    }
+    .right {
+      width: 45%;
+      padding: 20px 1%;
+      ul {
+      .flex(space-between);
+      flex-wrap: wrap
+
+      li {
+        width: 45%;
+      }
+
+      }
+    }
+
+    @media @mobile {
+      flex-direction: column;
+      padding: 20px 15px;
+      margin-top: 10px;
+
+      .left {
+        width: 100%;
+
+      }
+
+      .right {
+        width: 100%;
+      }
+      
+    }
+
+  }
+    
+}
