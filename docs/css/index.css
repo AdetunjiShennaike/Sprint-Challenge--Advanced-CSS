@@ -311,3 +311,36 @@ footer {
     margin: 0;
   }
 }
+.contact img {
+  width: 80%;
+  height: auto;
+}
+.contact .contact-info {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.contact .contact-info .left {
+  width: 45%;
+  padding: 20px 1%;
+}
+.contact .contact-info .right {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap
+      width: 45%;
+  padding: 20px 1%;
+}
+@media (max-width: 500px) {
+  .contact .contact-info {
+    flex-direction: column;
+    padding: 20px 15px;
+    margin-top: 10px;
+  }
+  .contact .contact-info .left {
+    width: 100%;
+  }
+  .contact .contact-info .right {
+    width: 100%;
+  }
+}
