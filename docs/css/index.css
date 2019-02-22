@@ -217,12 +217,6 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
-@media (max-width: 500px) {
-  .home .intro h2,
-  .home .intro p {
-    width: 90%;
-  }
-}
 .home .space-images {
   display: flex;
   justify-content: flex-start;
