@@ -16,6 +16,13 @@
     p {
       padding:0 15px;
     }
+
+    @media @mobile {
+      h2, p {
+        padding-left: 14px;
+        padding-right: 14px;
+      }
+    }
   }
 
   .space-images {
@@ -31,10 +38,10 @@
     }
 
     @media @mobile {
-      width: 90%;
 
       .blast {
-        width: 90%;
+        width: 100%;
+        margin: 20px 5%;
       }
 
       .sky, .launch {
@@ -53,10 +60,6 @@
 
     p {
       margin-top: 13px;
-    }
-
-    @media @mobile {
-      width: 90%;
     }
   }
 
@@ -96,17 +99,23 @@
     }
 
     @media @mobile {
-      width: 90%;
       flex-direction: column;
+      padding: 20px 15px;
+      margin-top: 10px;
       .walk-text {
         order: 2;
         width: 100%;
         .btn {
           button {
             width: 100%;
+            padding: 20px 0;
           }
         }
      }  
+      .walk-img {
+        width: 100%;
+        margin: 0;
+      }
     }
   }
 }// home
