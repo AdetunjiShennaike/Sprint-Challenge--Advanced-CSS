@@ -16,15 +16,22 @@
 
   .navbar {
     .flex(space-between);
-    width: 40%;
+    width: 45%;
     margin-top: 20px;
     
     a{
       text-decoration: none;
       color: @nav-font;
-      font-size: 2rem;
+      font-size: 1.8rem;
       &:active {
         color: @nav-font;
+      }
+    }
+
+    @media @mobile {
+      width: 80%;
+      a {
+      font-size: 1.5rem;
       }
     }
   }
